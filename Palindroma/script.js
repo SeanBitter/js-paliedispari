@@ -19,8 +19,7 @@ function isPalindrome(wordInOrder) {
             palindromeWord = true;
         }
 
-    console.log(wordInOrderSplit);
-    console.log(wordInReverse);
+    return palindromeWord;
 }
 
 console.log(isPalindrome(userWord));
