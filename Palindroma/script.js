@@ -15,7 +15,9 @@ function isPalindrome(wordInOrder) {
         wordInReverse.push(wordInOrderSplit[i]);
     }
 
-        if (wordInOrderSplit === wordInReverse) {
+    const wordInReverseJoin = wordInReverse.join('');
+
+        if (wordInOrder === wordInReverseJoin) {
             palindromeWord = true;
         }
 
