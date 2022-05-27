@@ -25,3 +25,9 @@ function isPalindrome(wordInOrder) {
 }
 
 console.log(isPalindrome(userWord));
+let ok = isPalindrome(userWord);
+if ((ok) === true) {
+    console.log(userWord + " è palindroma!");
+} else {
+    console.log(userWord + " non è palindroma");
+}
